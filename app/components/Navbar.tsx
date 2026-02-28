@@ -22,6 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Who We Are", href: "/about" },
     { name: "Services", href: "/services" },
+    { name: "Our Work", href: "/work" }, // Imeongezwa "Our Work" hapa
     { name: "News & Resources", href: "/news" },
     { name: "Opportunities", href: "/opportunities" },
   ];
@@ -30,7 +31,7 @@ export default function Navbar() {
     <nav 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? "bg-white/90 backdrop-blur-md border-b border-gray-200 py-4" 
+          ? "bg-white/95 backdrop-blur-md border-b-2 border-primary/10 py-4 shadow-none" 
           : "bg-white py-6"
       }`}
     >
@@ -48,21 +49,21 @@ export default function Navbar() {
         {/* NAV LINKS PAMOJA NA BUTTON YA CONTACT US */}
         <div className="hidden lg:flex items-center space-x-8">
           
-          {/* Menu Links (Sasa zote zinafanana mwanzo mwisho) */}
+          {/* Menu Links */}
           {navLinks.map((link) => (
             <a 
               key={link.name} 
               href={link.href} 
-              className="text-[15px] font-bold text-gray-500 hover:text-gray-900 transition-colors duration-300"
+              className="text-[15px] font-bold text-gray-600 hover:text-primary transition-colors duration-300"
             >
               {link.name}
             </a>
           ))}
 
-          {/* Contact Us Button */}
+          {/* Contact Us Button - Sharp & Primary Theme */}
           <a 
             href="/contact" 
-            className="border-2 border-gray-900 bg-transparent text-gray-900 px-6 py-2 text-[15px] font-bold hover:bg-gray-900 hover:text-white transition-colors duration-300 ml-2"
+            className="border-2 border-primary bg-transparent text-primary px-7 py-2.5 text-[15px] font-bold hover:bg-primary hover:text-white transition-all duration-300 ml-2 rounded-none"
           >
             Contact Us
           </a>
@@ -71,17 +72,17 @@ export default function Navbar() {
 
         {/* MOBILE MENU BUTTON */}
         <button 
-          className="lg:hidden text-gray-900"
+          className="lg:hidden text-primary"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
-          {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {isMobileMenuOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
         </button>
       </div>
 
       {/* MOBILE MENU DROPDOWN */}
       <div 
-        className={`lg:hidden absolute w-full bg-white border-b border-gray-200 transition-all duration-300 overflow-hidden ${
-          isMobileMenuOpen ? "max-h-96 opacity-100 py-6" : "max-h-0 opacity-0"
+        className={`lg:hidden absolute w-full bg-white border-b-2 border-primary/10 transition-all duration-300 overflow-hidden ${
+          isMobileMenuOpen ? "max-h-[500px] opacity-100 py-8 shadow-none" : "max-h-0 opacity-0"
         }`}
       >
         <div className="flex flex-col px-6 space-y-6">
@@ -89,7 +90,7 @@ export default function Navbar() {
             <a 
               key={link.name} 
               href={link.href} 
-              className="text-base font-bold text-gray-500 hover:text-gray-900"
+              className="text-lg font-bold text-gray-700 hover:text-primary"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               {link.name}
@@ -97,7 +98,7 @@ export default function Navbar() {
           ))}
           <a 
             href="/contact" 
-            className="border-2 border-gray-900 bg-gray-900 text-white px-6 py-3 text-base font-bold text-center w-fit"
+            className="border-2 border-primary bg-primary text-white px-6 py-4 text-base font-bold text-center w-full rounded-none"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Contact Us
