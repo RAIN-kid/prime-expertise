@@ -22,7 +22,6 @@ export default function Navbar() {
   const navLinks = [
     { name: "Who We Are", href: "/about" },
     { name: "Services", href: "/services" },
-    { name: "Our Work", href: "/work" }, // Imeongezwa "Our Work" hapa
     { name: "News & Resources", href: "/news" },
     { name: "Opportunities", href: "/opportunities" },
   ];
