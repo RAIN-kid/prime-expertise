@@ -32,50 +32,50 @@ export default async function ApplyPage({ params }: { params: Promise<{ slug: st
             
             {/* Maelezo Kushoto */}
             <div className="lg:col-span-5 flex flex-col">
-              <div className="text-gray-700 font-normal text-lg leading-relaxed space-y-6 mb-12">
+              <div className="text-gray-600 font-light text-lg leading-relaxed space-y-6 mb-12">
                 <p>Are you a seasoned professional in international development with a passion for making a positive impact on the world? Look no further! We are currently seeking multidisciplinary experts in all areas of our service, including research, data handling and management, and monitoring and evaluation.</p>
-                <p className="font-bold text-gray-900">If you are a highly motivated individual with a commitment to making a positive impact in the world, we want to hear from you! Apply now and join our team in making a difference.</p>
+                <p className="font-medium text-gray-900">If you are a highly motivated individual with a commitment to making a positive impact in the world, we want to hear from you! Apply now and join our team in making a difference.</p>
               </div>
 
               {/* Legal Box */}
-              <div className="bg-gray-50 border-2 border-primary/10 p-8 shadow-sm">
-                <h4 className="text-xs font-bold tracking-widest text-primary uppercase mb-4">Data Protection & Privacy</h4>
-                <p className="text-gray-600 font-normal text-xs leading-relaxed space-y-2 mb-4">At Prime Expertise, we understand the importance of protecting personal data and take this responsibility very seriously. We assure you that the information you provide via this questionnaire and your CV will be used solely for the purpose of recruitment and will be handled with the utmost respect and confidentiality.</p>
-                <a href="#privacy-policy" className="text-xs font-bold text-gray-900 uppercase tracking-widest hover:text-primary transition-colors">Read Full Policy</a>
+              <div className="bg-gray-50 border border-gray-200 p-8">
+                <h4 className="text-xs font-bold tracking-widest text-gray-900 uppercase mb-4">Data Protection & Privacy</h4>
+                <p className="text-gray-500 font-light text-xs leading-relaxed space-y-2 mb-4">At Prime Expertise, we understand the importance of protecting personal data and take this responsibility very seriously. We assure you that the information you provide via this questionnaire and your CV will be used solely for the purpose of recruitment and will be handled with the utmost respect and confidentiality.</p>
+                <a href="#privacy-policy" className="text-xs font-semibold text-primary uppercase tracking-widest hover:text-gray-500 transition-colors">Read Full Policy</a>
               </div>
             </div>
 
             {/* Fomu ya Usajili Kulia */}
-            <div className="lg:col-span-7 bg-white border-2 border-primary/10 p-8 md:p-12 shadow-sm h-fit sticky top-32">
-              <h3 className="text-2xl font-bold text-primary mb-4">
+            <div className="lg:col-span-7 bg-white border border-gray-200 p-8 md:p-12 shadow-sm h-fit sticky top-32">
+              <h3 className="text-2xl font-light text-primary/80 mb-4">
                 Register Your CV
               </h3>
               {/* HAPA NDIPO UCHAWI UPO: Inamwambia anaomba kazi gani! */}
-              <div className="mb-8 pb-4 border-b border-primary/10 flex items-center">
+              <div className="mb-8 pb-4 border-b border-gray-100 flex items-center">
                 <span className="text-xs font-semibold tracking-widest text-gray-500 uppercase mr-3">Applying for:</span>
-                <span className="text-sm font-bold text-primary uppercase tracking-widest border border-primary/20 bg-primary/5 px-3 py-1">{job.title}</span>
+                <span className="text-sm font-bold text-primary uppercase tracking-widest bg-gray-100 px-3 py-1">{job.title}</span>
               </div>
               
               <form className="space-y-8">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">First Name *</label><input type="text" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-primary rounded-none transition-colors w-full outline-none" required /></div>
-                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Middle Name *</label><input type="text" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-primary rounded-none transition-colors w-full outline-none" required /></div>
-                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Sur Name *</label><input type="text" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-primary rounded-none transition-colors w-full outline-none" required /></div>
+                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">First Name *</label><input type="text" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-gray-900 rounded-none transition-colors w-full outline-none" required /></div>
+                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Middle Name *</label><input type="text" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-gray-900 rounded-none transition-colors w-full outline-none" required /></div>
+                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Sur Name *</label><input type="text" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-gray-900 rounded-none transition-colors w-full outline-none" required /></div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Email *</label><input type="email" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-primary rounded-none transition-colors w-full outline-none" required /></div>
-                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Date of Birth *</label><input type="date" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-primary rounded-none transition-colors w-full outline-none text-gray-700 font-medium" required /></div>
+                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Email *</label><input type="email" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-gray-900 rounded-none transition-colors w-full outline-none" required /></div>
+                  <div className="flex flex-col"><label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-2">Date of Birth *</label><input type="date" className="border-0 border-b border-gray-300 py-2 px-0 bg-transparent focus:ring-0 focus:border-gray-900 rounded-none transition-colors w-full outline-none text-gray-600" required /></div>
                 </div>
                 <div className="flex flex-col pt-4">
                   <label className="text-xs font-semibold tracking-widest text-gray-500 uppercase mb-4">CV Upload *</label>
-                  <input type="file" className="block w-full text-sm text-gray-500 file:mr-4 file:py-3 file:px-6 file:rounded-none file:border-0 file:text-xs file:font-bold file:uppercase file:tracking-widest file:bg-primary/10 file:text-primary hover:file:bg-primary/20 file:cursor-pointer transition-colors" required />
+                  <input type="file" className="block w-full text-sm text-gray-500 file:mr-4 file:py-3 file:px-6 file:rounded-none file:border-0 file:text-xs file:font-semibold file:uppercase file:tracking-widest file:bg-primary/20 file:text-gray-900 hover:file:bg-gray-200 file:cursor-pointer transition-colors" required />
                 </div>
-                <div className="pt-8 border-t border-primary/10 flex flex-col space-y-6">
+                <div className="pt-8 border-t border-gray-100 flex flex-col space-y-6">
                   <label className="flex items-center space-x-3 cursor-pointer group">
-                    <input type="checkbox" className="w-4 h-4 rounded-none border-gray-300 text-primary focus:ring-primary" required />
-                    <span className="text-sm text-gray-700 font-normal group-hover:text-primary transition-colors">I Agree to the Terms and Conditions and Data Protection Policy.</span>
+                    <input type="checkbox" className="w-4 h-4 rounded-none border-gray-300 text-gray-900 focus:ring-gray-900" required />
+                    <span className="text-sm text-gray-600 font-light group-hover:text-gray-900 transition-colors">I Agree to the Terms and Conditions and Data Protection Policy.</span>
                   </label>
-                  <button type="submit" className="w-full sm:w-auto border-2 border-primary bg-primary text-white px-10 py-4 text-sm font-bold tracking-widest uppercase hover:bg-transparent hover:text-primary transition-colors duration-300 flex items-center justify-center">
+                  <button type="submit" className="w-full sm:w-auto bg-primary text-white px-10 py-4 text-sm font-semibold tracking-widest uppercase hover:bg-gray-800 transition-colors duration-300 flex items-center justify-center">
                     Send Application <ArrowRight className="ml-3 w-4 h-4" />
                   </button>
                 </div>

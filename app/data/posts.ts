@@ -8,7 +8,7 @@ export const allPosts = [
     title: "Unlocking Development Impact with Evidence-Based Research",
     shortDesc: "Evidence-based research is transforming how development initiatives are designed, implemented, and evaluated. This report explores how robust data and rigorous analysis can unlock greater impact across Tanzania and East Africa.",
     fullContent: "Evidence-based research is transforming how development initiatives are designed, implemented, and evaluated. This report explores how robust data and rigorous analysis can unlock greater impact across Tanzania and East Africa, drawing on Prime Expertise's work in research, data handling, and monitoring & evaluation.",
-    image: "post2.webp", 
+    image: "post22.jpg", 
     category: "Reports",
     date: "February 2026",
     readTime: "7 min read"
@@ -21,7 +21,7 @@ export const allPosts = [
     title: "Revolutionizing M&E through collaborative data systems",
     shortDesc: "How integrated data collection and management platforms are transforming monitoring and evaluation across development programs.",
     fullContent: "How integrated data collection and management platforms are transforming monitoring and evaluation across development programs.",
-    image: "post2.webp", 
+    image: "post11.jpg", 
     category: "Insights",
     date: "February 2026",
     readTime: "5 min read"
@@ -43,7 +43,7 @@ export const allPosts = [
     title: "Navigating development initiatives with robust M&E frameworks",
     shortDesc: "Best practices for designing monitoring and evaluation frameworks that support adaptive program management.",
     fullContent: "Best practices for designing monitoring and evaluation frameworks that support adaptive program management.",
-    image: "post4.webp",
+    image: "hero5.webp",
     category: "Frameworks",
     date: "January 2026",
     readTime: "6 min read"
@@ -54,7 +54,7 @@ export const allPosts = [
     title: "Sculpting impact – the art of evidence-based program design",
     shortDesc: "Using evidence from research and M&E to inform and refine development program design and delivery.",
     fullContent: "Using evidence from research and M&E to inform and refine development program design and delivery.",
-    image: "post5.webp",
+    image: "hero3.webp",
     category: "Program Design",
     date: "December 2025",
     readTime: "4 min read"
@@ -65,7 +65,7 @@ export const allPosts = [
     title: "Transforming development platforms – a data and M&E odyssey",
     shortDesc: "Leveraging data analytics and evaluation findings to strengthen development initiatives across East Africa.",
     fullContent: "Leveraging data analytics and evaluation findings to strengthen development initiatives across East Africa..",
-    image: "post6.webp",
+    image: "hero2.webp",
     category: "Analytics",
     date: "December 2025",
     readTime: "6 min read"
@@ -78,7 +78,7 @@ export const allPosts = [
     title: "Mastering M&E Frameworks: A Practical Guide for Development Practitioners",
     shortDesc: "Learn how to design and implement robust monitoring and evaluation systems that drive program improvement and accountability.",
     fullContent: "Learn how to design and implement robust monitoring and evaluation systems that drive program improvement and accountability.",
-    image: "post7.webp",
+    image: "hero1.webp",
     category: "Guide",
     date: "November 2025",
     readTime: "5 min read"
@@ -100,7 +100,7 @@ export const allPosts = [
     title: "Beyond Numbers: The Power of Qualitative Research in Development",
     shortDesc: "Explore how in-depth qualitative methods complement quantitative data to tell the full story of program impact.",
     fullContent: "Explore how in-depth qualitative methods complement quantitative data to tell the full story of program impact.",
-    image: "post9.webp",
+    image: "post22.jpg",
     category: "Research",
     date: "October 2025",
     readTime: "6 min read"
@@ -111,7 +111,7 @@ export const allPosts = [
     title: "Beyond Numbers: The Power of Qualitative Research in Development",
     shortDesc: "Explore how in-depth qualitative methods complement quantitative data to tell the full story of program impact.",
     fullContent: "Explore how in-depth qualitative methods complement quantitative data to tell the full story of program impact.",
-    image: "post10.webp",
+    image: "post11.jpg",
     category: "Projects",
     date: "October 2025",
     readTime: "6 min read"
