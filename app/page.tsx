@@ -34,7 +34,7 @@ export default function Home() {
       {/* MAIN WRAPPER: pt-28 (inashuka chini ya navbar), 
         px-4 md:px-8 lg:px-12 (inaacha space kushoto na kulia) 
       */}
-      <main className="bg-white pt-28 pb-16 px-4 md:px-8 lg:px-12">
+      <main className="bg-white pt-28 pb-5 px-4 md:px-8 lg:px-12">
         
         {/* HERO BOX: Liko katikati, min-h-[85vh] ili liwe kubwa vizuri */}
         <div className="relative w-full min-h-[85vh] flex items-center justify-center bg-gray-900 overflow-hidden">
@@ -80,7 +80,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="max-w-4xl"
             >
-              <h1 className="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight tracking-tight mb-6">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight tracking-tight mb-6">
                 Data Collection & Research <br className="hidden md:block" />
                 {/* Hapa nimetumia primary color kuongeza muonekano */}
                 <span className="font-medium text-primary">Services in Tanzania</span>
@@ -92,9 +92,9 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="max-w-2xl text-lg md:text-xl text-gray-300 font-light leading-relaxed mb-12"
+              className="max-w-2xl text-lg md:text-xl text-gray-300 font-light leading-relaxed mb-5"
             >
-              We are a world-class, multi-disciplinary, local Tanzanian data collection and research services firm dedicated to supporting the missions of international development agencies.
+              We are a world-class, multi-disciplinary, local Tanzanian data collection and research services firm dedicated to supporting the missions of international development agencies in support of socioeconomic development initiatives in Tanzania, East Africa, and beyond. We strive to provide high-quality, cost-effective, and evidence-based solutions across the project life-cycle, empowering organisations to effectively design, implement, and evaluate their development initiatives.
             </motion.p>
 
             {/* Button Iliyonyooka (Haina bg, ina border) */}
@@ -131,18 +131,18 @@ export default function Home() {
 
           {/* Grid ya Logo (Nimeondoa opacity-80 ili zionekane vizuri mwanzo mwisho) */}
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-x-8 gap-y-10 items-center justify-items-center">
-            <img src="https://primexpert.vercel.app/client/mecslogo.png" alt="UKAid MECS" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/15_karl-kuebel-stiftung.png" alt="Karl Kübel Stiftung" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/thefred.png" alt=" Fred Hollows" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/hystra.png" alt="Hystra" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/loughborough-univeristy-lboro-logo-1024x258.png" alt="Loughborough" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/CSSC-logo-bgless.png" alt="CSSC" className="h-14 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/CcNLE7oh_400x400.jpg" alt="Partner" className="h-12 rounded-full object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/afrifoodlinks-logo-mobile-full.c76c76-1024x434.png" alt="AfriFOODlinks" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/iclei.png" alt="ICLEI" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/rikolto.png" alt="Rikolto" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/GDC%20Consulting.png" alt="GDC" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <img src="https://primexpert.vercel.app/client/Logo.png" alt="Client Logo" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/lough-uni.png" alt="Loughborough" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/ukinter.png" alt="UKAid MECS" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/karl.png" alt="Karl Kübel Stiftung" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/CSSC-logo-bgless.png" alt="CSSC" className="h-14 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/viagro.jpg" alt="Partner" className="h-12 rounded-full object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/afrifoodlinks-logo.png" alt="AfriFOODlinks" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/iclei.png" alt="ICLEI" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/rikolto.png" alt="Rikolto" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/thefred.png" alt=" Fred Hollows" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/hystra.png" alt="Hystra" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/GDC.png" alt="GDC" className="h-12 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
+            <img src="/images/anti-slavery.png" alt="Client Logo" className="h-10 object-contain hover:scale-110 transition-transform duration-300 cursor-pointer" />
           </div>
         </div>
       </section>
@@ -163,15 +163,15 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Grid ya Huduma (Cards 3 zilizolala flat) */}
+          {/* Grid ya Huduma (Cards 3) */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             
             {/* Kadi ya 1: Research */}
             <a href="/services" className="group border border-gray-200 bg-white p-8 md:p-10 flex flex-col hover:border-gray-400 transition-colors duration-500 cursor-pointer block">
-              {/* Picha iliyodhibitiwa (Grayscale + Slow Zoom) */}
+              {/* Picha  */}
               <div className="w-full h-48 mb-8 overflow-hidden relative bg-gray-100">
                 <img 
-                  src="https://primexpert.vercel.app/services/3-1024x884.jpg" 
+                  src="/images/post11.jpg" 
                   alt="Research" 
                   className="object-cover w-full h-full group-hover:scale-105"
                 />
@@ -191,7 +191,7 @@ export default function Home() {
             <a href="/services" className="group border border-gray-200 bg-white p-8 md:p-10 flex flex-col hover:border-gray-400 transition-colors duration-500 cursor-pointer block">
               <div className="w-full h-48 mb-8 overflow-hidden relative bg-gray-100">
                 <img 
-                  src="https://primexpert.vercel.app/services/2-1-scaled.jpg" 
+                  src="/images/post22.jpg" 
                   alt="Data Handling" 
                   className="object-cover w-full h-full group-hover:scale-105"
                 />
@@ -210,7 +210,7 @@ export default function Home() {
             <a href="/services" className="group border border-gray-200 bg-white p-8 md:p-10 flex flex-col hover:border-gray-400 transition-colors duration-500 cursor-pointer block">
               <div className="w-full h-48 mb-8 overflow-hidden relative bg-gray-100">
                 <img 
-                  src="https://primexpert.vercel.app/services/6-664x1024.jpg" 
+                  src="/images/post33.jpg" 
                   alt="Monitoring & Evaluation" 
                   className="object-cover w-full h-full group-hover:scale-105"
                 />
@@ -229,7 +229,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION YA OUR REACH & IMPACT - Wapishane Layout (Zig-Zag) & Original Colors */}
+      {/* SECTION YA OUR REACH & IMPACT  */}
       <section className="py-32 bg-white border-b border-gray-100">
         <div className="container mx-auto px-6 md:px-12 lg:px-24">
           
@@ -259,7 +259,7 @@ export default function Home() {
             {/* Ramani (Kulia) */}
             <div className="p-8 md:p-16 lg:h-120 bg-gray-50 flex items-center justify-center">
               <img 
-                src="https://primexpert.vercel.app/Map_TRIMMED.svg" 
+                src="/images/Map.svg" 
                 alt="Prime Expertise Offices Map" 
                 className="w-full max-w-sm h-auto mix-blend-multiply" 
               />
@@ -269,11 +269,10 @@ export default function Home() {
           {/* 2. SERVING THE SDGS (Picha Kushoto, Maelezo Kulia - Zimepishana) */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 border border-gray-200">
             
-            {/* Picha ya Data (Kushoto) - Rangi Zimerudishwa ili maelezo yalete maana */}
             {/* Kwenye simu (mobile) picha itakaa chini, kwenye PC itakaa kushoto (order-2 lg:order-1) */}
             <div className="p-8 md:p-16 bg-gray-50 flex items-center justify-center border-b lg:border-b-0 lg:border-r border-gray-200 order-2 lg:order-1">
               <img 
-                src="https://primexpert.vercel.app/map.jpg" 
+                src="/images/outreach.jpg" 
                 alt="Sustainable Development Goals Contribution" 
                 className="w-full h-auto mix-blend-darken" 
               />
@@ -315,8 +314,6 @@ export default function Home() {
               </a>
             </div>
           </div>
-
-          {/* Grid ya Case Studies (Ripoti 3 za Mfano) */}
          {/* Grid ya Case Studies (Ripoti 3 za Mfano zinazosomwa kutoka kwenye DB) */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {caseStudies.slice(0, 3).map((study) => (
@@ -328,7 +325,7 @@ export default function Home() {
                 {/* Cover Image */}
                 <div className="w-full h-48 overflow-hidden relative bg-gray-100 border-b border-gray-100">
                   <img 
-                    // Hapa tunatumia picha kutoka kwenye data. Kama hujaziweka kule, tumia hizi placeholders za Unsplash ulizokuwa nazo
+                    // place holder images
                     src={
                       study.id === 1 ? "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=500&fit=crop" :
                       study.id === 2 ? "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=500&fit=crop" :

@@ -47,14 +47,13 @@ export default function ServicesPage() {
             {/* Picha Kushoto */}
             <div className="w-full h-80 lg:h-96 overflow-hidden bg-gray-100 border-b lg:border-b-0 lg:border-r border-gray-200">
               <img 
-                src="https://primexpert.vercel.app/services/3-1024x884.jpg" 
+                src="/images/post11.jpg" 
                 alt="Research Services" 
                 className="w-full h-full object-cover group-hover:scale-105"
               />
             </div>
             {/* Maelezo Kulia */}
             <div className="p-10 md:p-16 flex flex-col justify-center bg-white">
-              <span className="text-xs font-semibold tracking-widest text-primary/80 uppercase mb-4 block">01</span>
               <h3 className="text-3xl font-light text-primary mb-6">Research</h3>
               <div className="h-[1px] w-16 bg-primary/30 mb-6"></div>
               <p className="text-gray-600 font-light text-lg leading-relaxed">
@@ -67,7 +66,6 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 border border-gray-200 group hover:border-gray-400 transition-colors duration-500 flex-col-reverse lg:flex-row">
             {/* Maelezo Kushoto */}
             <div className="p-10 md:p-16 flex flex-col justify-center bg-white border-b lg:border-b-0 lg:border-r border-gray-200 order-2 lg:order-1">
-              <span className="text-xs font-semibold tracking-widest text-primary/80 uppercase mb-4 block">02</span>
               <h3 className="text-3xl font-light text-primary mb-6">Data Handling & Management</h3>
               <div className="h-[1px] w-16 bg-primary/30 mb-6"></div>
               <p className="text-gray-600 font-light text-lg leading-relaxed">
@@ -77,7 +75,7 @@ export default function ServicesPage() {
             {/* Picha Kulia */}
             <div className="w-full h-80 lg:h-96 overflow-hidden bg-gray-100 order-1 lg:order-2">
               <img 
-                src="https://primexpert.vercel.app/services/2-1-scaled.jpg" 
+                src="/images/post22.jpg" 
                 alt="Data Handling & Management" 
                 className="w-full h-full object-covern-all group-hover:scale-105"
               />
@@ -89,14 +87,13 @@ export default function ServicesPage() {
             {/* Picha Kushoto */}
             <div className="w-full h-80 lg:h-96 overflow-hidden bg-gray-100 border-b lg:border-b-0 lg:border-r border-gray-200">
               <img 
-                src="https://primexpert.vercel.app/services/6-664x1024.jpg" 
+                src="/images/post33.jpg" 
                 alt="Monitoring & Evaluation" 
                 className="w-full h-full object-cover group-hover:scale-105"
               />
             </div>
             {/* Maelezo Kulia */}
             <div className="p-10 md:p-16 flex flex-col justify-center bg-white">
-              <span className="text-xs font-semibold tracking-widest text-primary/80 uppercase mb-4 block">03</span>
               <h3 className="text-3xl font-light text-primary mb-6">Monitoring & Evaluation</h3>
               <div className="h-[1px] w-16 bg-primary/30 mb-6"></div>
               <p className="text-gray-600 font-light text-lg leading-relaxed">
